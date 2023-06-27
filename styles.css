@@ -1,0 +1,50 @@
+* {
+    background-color: lightblue;
+}
+
+#header {
+    text-align: center;
+}
+
+#puzzle {
+    width: 675px;
+    height: 675px;
+    display: block;
+    margin: auto;
+}
+
+#puzzle input {
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+    border-spacing: 0;
+    border: 1px gray solid;
+    padding-left: 15px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+#solve-button {
+    margin: auto;
+    margin-top: 20px;
+    display: block;
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-width: 5px;
+    
+}
+
+#solve-button:hover {
+    background-color: lightgray;
+}
+
+.odd-section {
+    background-color: lightgray;
+    text-align: center;
+}
+
+.even-section {
+    text-align: center;
+    background-color: white;
+}
